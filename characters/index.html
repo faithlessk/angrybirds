@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Angry Birds</title>
+  <link rel="shortcut icon"
+    href="https://th.bing.com/th/id/R116de436ab9c15c5c89fbf922d3b6c33?rik=jGRnvHbAz3FiaA&riu=http%3a%2f%2ficons.iconarchive.com%2ficons%2ffasticon%2fangry-birds%2f512%2fred-bird-icon.png&ehk=iZq2YyhbuudB0wbAeauy2EHqF3eWFs%2f7pSxatC5dU%2fQ%3d&risl=&pid=ImgRaw"
+    type="image/vnd.microsoft.icon">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+</head>
+
+<body>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous">
+  </script>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="http://127.0.0.1:5500/finalproject/" id="home"><img
+          src="https://th.bing.com/th/id/R116de436ab9c15c5c89fbf922d3b6c33?rik=jGRnvHbAz3FiaA&riu=http%3a%2f%2ficons.iconarchive.com%2ficons%2ffasticon%2fangry-birds%2f512%2fred-bird-icon.png&ehk=iZq2YyhbuudB0wbAeauy2EHqF3eWFs%2f7pSxatC5dU%2fQ%3d&risl=&pid=ImgRaw"
+          style="height:50px;"></img></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="http://127.0.0.1:5500/finalproject/characters"
+              id="link"><button type="button" class="btn btn-primary">Characters</button></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="http://127.0.0.1:5500/finalproject/games" id="link"><button
+                type="button" class="btn btn-success">Games</button></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="http://127.0.0.1:5500/finalproject/films"
+              id="link"><button type="button" class="btn btn-warning">Films</button></a>
+          </li>
+        </ul>
+        <a class="nav-link" href=""><button type="button" id="all" class="btn btn-warning">All</button></a>
+        <a class="nav-link" href=""><button type="button" id="birds" class="btn btn-danger">Birds</button></a>
+        <a class="nav-link" href=""><button type="button" id="pigs" class="btn btn-success">Pigs</button></a>
+        <form class="d-flex" id="search">
+          <input class="form-control me-2" name="inputData" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-warning" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+  <div id="card" class="card-container" style="display: flex; flex-direction: row; flex-wrap: wrap;">
+
+  </div>
+  <script src="script.js"></script>
+</body>
+
+</html>
