@@ -133,8 +133,8 @@ let renderData = (data) => {
             <br>
             ${data[i].powerlevel}
           </p>
-          <a href="#" class="btn btn-primary">Like</a>
-          <a href="#" class="btn btn-danger">Dislike</a>
+          <p href="#" class="btn btn-primary">Like</a>
+          <p href="#" class="btn btn-danger">Dislike</a>
         </div>
       </div>`
     card.innerHTML += html
