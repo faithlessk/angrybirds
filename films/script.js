@@ -1,5 +1,5 @@
 let films = [{
-  img: "https://www.bing.com/images/blob?bcid=ToNruK8e39wCqxcxoNWLuD9SqbotqVTdP4M",
+  img: "https://www.bing.com/images/blob?bcid=ToNruK8e3-YCDF1gqcPOew24kV0Q.....9o",
   name: "Angry Birds Toons",
   genre: "Genre: Comedy, Adventure",
   seasons: "Seasons: 3",
@@ -17,7 +17,7 @@ let films = [{
   color: "hotpink"
 },
 {
-  img: "https://www.bing.com/images/blob?bcid=TiZzk-RDNNwCqxcxoNWLuD9SqbotqVTdP.Q",
+  img: "https://www.bing.com/images/blob?bcid=TiZzk-RDNOYCqxcxoNWLuD9SqbotqVTdPxI",
   name: "Angry Birds MakerSpace",
   genre: "Genre: Comedy",
   seasons: "Seasons: 1",
