@@ -173,6 +173,7 @@ form.onsubmit = (e) => {
 
   renderData(result)
 }
+
 let a =document.querySelectorAll(".card")
 for(let i =0; i<a.length;i++){
   a[i].addEventListener("click", (e)=>{

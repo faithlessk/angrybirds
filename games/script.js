@@ -102,3 +102,23 @@ form.onsubmit = (e) => {
 
     renderData(result)
 }
+
+let a =document.querySelectorAll(".card")
+for(let i =0; i<a.length;i++){
+  a[i].addEventListener("click", (e)=>{
+    if(e.target.innerHTML == "Like")
+    {
+      // let like = e.target.parentNode.childNodes[5].innerHTML
+      // like = parseInt(like)
+      // like++
+      e.target.parentNode.childNodes[5].innerHTML = 1
+    }
+    if(e.target.innerHTML == "Dislike")
+    {
+      // let like = e.target.parentNode.childNodes[5].innerHTML
+      // like = parseInt(like)
+      // like--
+      e.target.parentNode.childNodes[5].innerHTML = 0
+    }
+  })
+}
